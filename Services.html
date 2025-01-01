@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal CXA Dev</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar " data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://i.postimg.cc/JzBWVhW4/my-avatar.png" alt="avatar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Munteanu Codrut">Codrut Munteanu</h1>
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info-more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="caret-down-outline"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info-more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:codrutxalex@gmail.com" class="contact-link">codrutxalex@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+40770849945" class="contact-link">0770849945</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-05-15">May 15, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ploiesti, Prahova, RO</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item"><a href="www.facebook.com/codrutxalex" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-item"><a href="www.x.com/codrutxalex" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-item"><a href="www.instagram.com/codrutxalex" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+      </div>
+    </aside>
+	
+<!-- meniu -->
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+		<a href="index.html">
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Despre</button></li>
+		</a>
+		<a href="services.html">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>Servicii</button></li>
+		</a>  
+		<a href="page.html">
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfoliu</button></li>
+		</a>  
+		 
+		<a href="page.html">
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+		</a> 
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">CXA Dev</h2>
+        </header>
+
+        <section class="about-text">
+          <p>Avem o gama variata de servicii, contacteaza-ne pentru a beneficia de acestea si pentru a iti comunica detaliile necesare.</p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Servicii disponibile</h3>
+
+          <ul class="service-list">
+<!-- hardware -->		  
+<li class="service-item">
+  <div class="service-icon-box">
+                <img src="https://i.postimg.cc/K8j875FW/Folders-and-Files-Ultra-065-Config-File-64.webp" alt="icon" width="40">
+  </div>
+  <div class="service-content-box">
+      <h4 class="h4 service-item-title">Hardware</h4>
+        <p class="service-item-text">
+                  ~ Mentenanta standard PC/Laptop<BR>
+                  ~ Mentenanta standard PS4/Xbox<BR>
+                  ~ Asamblare PC<BR>
+                  ~ Schimbat pasta termoconductoare<BR>
+                  ~ Upgrade PS4<BR>
+        </p>
+  </div>
+</li>
+<!-- software -->
+<li class="service-item">
+  <div class="service-icon-box">
+                <img src="https://i.postimg.cc/gJNcfNv3/2731915.png" alt="icon" width="40">
+  </div>
+<div class="service-content-box">
+      <h4 class="h4 service-item-title">Software</h4>
+        <p class="service-item-text">
+                  ~ Instalare sistem de operare<BR>
+                  ~ Optimizare setari performanta<BR>
+                  ~ Update bios<BR>
+                  ~ Configurare pc<BR>
+        </p>
+</div>
+</li>
+          </ul>
+        </section>
+  </main>
+
+  <script src="main.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
